@@ -976,6 +976,9 @@ while [ $# -gt 0 ]; do    # Until you run out of parameters . . .
 	-dp|--download-password)
       	    shift
 	    ENTERPRISE_PASSWORD=$1
+		echo ""
+		echo "ENTERPRISE_PASSWORD=$ENTERPRISE_PASSWORD"
+		echo ""
 	    ;;
 	-dr|--dry-run)
 	    DRY_RUN=1
@@ -1340,11 +1343,17 @@ else
       - kube-hops::master
       - kube-hops::addons"
 	fi
-        ENTERPRISE_ATTRS="enterprise:
+        echo ""
+		echo "ENTERPRISE_PASSWORD=$ENTERPRISE_PASSWORD"
+		echo ""
+		ENTERPRISE_ATTRS="enterprise:
       install: true
       download_url: $ENTERPRISE_DOWNLOAD_URL
       username: $ENTERPRISE_USER
       password: $ENTERPRISE_PASSWORD"
+	    echo ""
+		echo "ENTERPRISE_PASSWORD=$ENTERPRISE_PASSWORD"
+		echo ""
 
     fi
     
