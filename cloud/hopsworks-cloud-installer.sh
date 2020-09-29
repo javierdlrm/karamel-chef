@@ -32,10 +32,10 @@
 #                                                                                                 #
 ###################################################################################################
 
-HOPSWORKS_INSTALLER_VERSION=2.0
+HOPSWORKS_INSTALLER_VERSION=kfserving
 CLUSTER_DEFINITION_VERSION=$HOPSWORKS_INSTALLER_VERSION
-HOPSWORKS_INSTALLER_BRANCH=https://raw.githubusercontent.com/logicalclocks/karamel-chef/$HOPSWORKS_INSTALLER_VERSION
-CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/logicalclocks/karamel-chef/$CLUSTER_DEFINITION_VERSION
+HOPSWORKS_INSTALLER_BRANCH=https://raw.githubusercontent.com/javierdlrm/karamel-chef/$HOPSWORKS_INSTALLER_VERSION
+CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/javierdlrm/karamel-chef/$CLUSTER_DEFINITION_VERSION
 
 DEBUG=0
 
