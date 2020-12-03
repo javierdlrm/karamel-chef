@@ -10,6 +10,6 @@ cookbook 'ndb', github: "logicalclocks/ndb-chef", branch: "master"
 cookbook 'conda', github: "logicalclocks/conda-chef", branch: "master"
 cookbook 'kzookeeper', github: "logicalclocks/kzookeeper", branch: "master"
 cookbook 'elastic', github: "logicalclocks/elasticsearch-chef", branch: "master"
-cookbook 'hopslog', github: "logicalclocks/hopslog-chef", branch: "master"
+cookbook 'hopslog', github: "javierdlrm/hopslog-chef", branch: "HOPSWORKS-2166"
 cookbook 'kkafka', github: "logicalclocks/kafka-cookbook", branch: "master"
 

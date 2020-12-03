@@ -32,7 +32,7 @@
 #                                                                                                 #
 ###################################################################################################
 
-HOPSWORKS_INSTALLER_VERSION=HOPSWORKS-2104
+HOPSWORKS_INSTALLER_VERSION=HOPSWORKS-2166
 CLUSTER_DEFINITION_VERSION=$HOPSWORKS_INSTALLER_VERSION
 HOPSWORKS_INSTALLER_BRANCH=https://raw.githubusercontent.com/javierdlrm/karamel-chef/$HOPSWORKS_INSTALLER_VERSION
 CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/javierdlrm/karamel-chef/$CLUSTER_DEFINITION_VERSION
