@@ -27,9 +27,9 @@
 #                                                                                                 #
 ###################################################################################################
 
-HOPSWORKS_REPO=logicalclocks/hopsworks-chef
-HOPSWORKS_BRANCH=2.0
-CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/logicalclocks/karamel-chef/$HOPSWORKS_BRANCH
+HOPSWORKS_REPO=javierdlrm/hopsworks-chef
+HOPSWORKS_BRANCH=HOPSWORKS-2104
+CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/javierdlrm/karamel-chef/$HOPSWORKS_BRANCH
 KARAMEL_VERSION=0.6
 INSTALL_ACTION=
 NON_INTERACT=0
