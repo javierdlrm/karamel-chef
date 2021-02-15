@@ -28,7 +28,7 @@
 ###################################################################################################
 
 HOPSWORKS_REPO=javierdlrm/hopsworks-chef
-HOPSWORKS_BRANCH=HOPSWORKS-2104
+HOPSWORKS_BRANCH=HOPSWORKS-2194
 CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/javierdlrm/karamel-chef/$HOPSWORKS_BRANCH
 KARAMEL_VERSION=0.6
 INSTALL_ACTION=
